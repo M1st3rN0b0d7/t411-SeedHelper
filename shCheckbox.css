@@ -4,6 +4,10 @@
 	height: 2.5rem;
 	position: relative;
 }
+#shCheckbox span {
+	display: inline;
+	margin-left: 52px;
+}
 #shCheckbox input {
 	opacity: 0;
 }
