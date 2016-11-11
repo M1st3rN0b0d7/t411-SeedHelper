@@ -7,6 +7,7 @@ input#shCheckbox:not(:checked) + label,
 input#shCheckbox:checked + label {
 	position: relative;
 	display: inline-block;
+	padding-left: 75px;
 	cursor: pointer;
 }
 input#shCheckbox:not(:checked) + label:before,
