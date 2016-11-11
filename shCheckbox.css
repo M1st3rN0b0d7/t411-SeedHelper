@@ -1,23 +1,23 @@
-#shCheckbox [type="checkbox"]:not(:checked),
-#shCheckbox [type="checkbox"]:checked {
+#shCheckbox input:not(:checked),
+#shCheckbox input:checked {
 	position: absolute;
 	left: -9999px;
 }
-#shCheckbox [type="checkbox"]:not(:checked) + label,
-#shCheckbox [type="checkbox"]:checked + label {
+#shCheckbox input:not(:checked) + label,
+#shCheckbox input:checked + label {
 	position: relative;
 	padding-left: 75px;
 	cursor: pointer;
 }
-#shCheckbox [type="checkbox"]:not(:checked) + label:before,
-#shCheckbox [type="checkbox"]:checked + label:before,
-#shCheckbox [type="checkbox"]:not(:checked) + label:after,
-#shCheckbox [type="checkbox"]:checked + label:after {
+#shCheckbox input:not(:checked) + label:before,
+#shCheckbox input:checked + label:before,
+#shCheckbox input:not(:checked) + label:after,
+#shCheckbox input:checked + label:after {
 	content: '';
 	position: absolute;
 }
-#shCheckbox [type="checkbox"]:not(:checked) + label:before,
-#shCheckbox [type="checkbox"]:checked + label:before {
+#shCheckbox input:not(:checked) + label:before,
+#shCheckbox input:checked + label:before {
 	left:0; top: -3px;
 	width: 65px; height: 30px;
 	background: #DDDDDD;
@@ -27,8 +27,8 @@
 	-ms-transition: background-color .2s;
 	transition: background-color .2s;
 }
-#shCheckbox [type="checkbox"]:not(:checked) + label:after,
-#shCheckbox [type="checkbox"]:checked + label:after {
+#shCheckbox input:not(:checked) + label:after,
+#shCheckbox input:checked + label:after {
 	width: 20px; height: 20px;
 	-webkit-transition: all .2s;
 	-moz-transition: all .2s;
@@ -40,17 +40,17 @@
 }
 
 /* on checked */
-#shCheckbox [type="checkbox"]:checked + label:before {
+#shCheckbox input:checked + label:before {
 	background:#34495E; 
 }
-#shCheckbox [type="checkbox"]:checked + label:after {
+#shCheckbox input:checked + label:after {
 	background: #39D2B4;
 	top: 2px; left: 40px;
 }
 
-#shCheckbox [type="checkbox"]:checked + label .ui,
-#shCheckbox [type="checkbox"]:not(:checked) + label .ui:before,
-#shCheckbox [type="checkbox"]:checked + label .ui:after {
+#shCheckbox input:checked + label .ui,
+#shCheckbox input:not(:checked) + label .ui:before,
+#shCheckbox input:checked + label .ui:after {
 	position: absolute;
 	left: 6px;
 	width: 65px;
@@ -63,15 +63,15 @@
 	-ms-transition: all .2s;
 	transition: all .2s;
 }
-#shCheckbox [type="checkbox"]:not(:checked) + label .ui:before {
+#shCheckbox input:not(:checked) + label .ui:before {
 	content: "no";
 	left: 32px
 }
-#shCheckbox [type="checkbox"]:checked + label .ui:after {
+#shCheckbox input:checked + label .ui:after {
 	content: "yes";
 	color: #39D2B4;
 }
-#shCheckbox [type="checkbox"]:focus + label:before {
+#shCheckbox input:focus + label:before {
 	border: 1px dashed #777;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
