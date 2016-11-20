@@ -6,6 +6,8 @@
 // @author       M1st3rN0b0d7
 // @match        https://www.t411.ch/torrents/search/*
 // @match        https://www.t411.ch/top/*
+// @match        https://www.t411.li/torrents/search/*
+// @match        https://www.t411.li/top/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
