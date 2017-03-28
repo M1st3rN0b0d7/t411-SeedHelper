@@ -1,13 +1,11 @@
 // ==UserScript==
 // @name         SeedHelper for T411
 // @version      2.0
-// @namespace    https://www.t411.li
+// @namespace    https://www.t411.ai
 // @description  Permet de trier les torrent pertients pour le ratio
 // @author       M1st3rN0b0d7
-// @match        https://www.t411.ch/torrents/search/*
-// @match        https://www.t411.ch/top/*
-// @match        https://www.t411.li/torrents/search/*
-// @match        https://www.t411.li/top/*
+// @match        https://www.t411.ai/torrents/search/*
+// @match        https://www.t411.ai/top/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
